@@ -1,0 +1,19 @@
+{
+  "name": "sigma",
+  "version": "0.0.1",
+  "description": "This is my first real work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "SIGMA"
+  },
+  "author": "NastyaMoroz",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-html-minifier": "^0.1.8"
+  }
+}
