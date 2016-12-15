@@ -47,11 +47,7 @@
 }
 .link:hover{
 	color: #cd0000;
-	text-decoration: underline;
 }
-/*.menu__link:hover{
- 	text-decoration: underline;
-}*/
 .top-panel__search{
 	float: right;
 	margin-top: 7px;
@@ -71,11 +67,12 @@
 	height: 18px;
 	border: none; 
 	background: linear-gradient(to bottom, #ffc400, #ff9800); 
+	background-image: ('../images/search-icon.png');
+	background-repeat: no-repeat;
+	background-position:50% 50%; 
 	border-radius: 0px 9px 9px 0px; 
 }
-.search__icon{
-	margin: 2px 0px;
-}
+
 
 .basket{
 	width: 220px;
@@ -84,9 +81,9 @@
 	padding: 0px;
 }
 .header{
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
-.header__left{
+.logo{
 	padding-top:8px;
 	padding-right:21px;
 	padding-bottom:19px;
@@ -114,9 +111,7 @@
 	font-size:40px;
 	font-weight:700;
 }
-.adress{
-	margin-top: 5px;
-}
+
 .header__basket{
 	float: right;
 	display: inline-block;
@@ -168,7 +163,7 @@
 }
 
 .service__icon{
-	background-position:50%;
+	background-position:50% 50%;
 	width:100%;
 	display: inline-block;
 	background-repeat: no-repeat;
@@ -183,20 +178,20 @@
 	vertical-align: middle;
 }
 .1C__icon{
-	background:url('../src/1c.png');
+	background:url('../images/1c.png');
 }
 .accountant__icon{
-	background-image:url('../src/accountant.png');
+	background-image:url('../images/accountant.png');
 }
 .shopequipment__icon{
-	background-image:url('../src/shopequipment.png');
+	background-image:url('../images/shopequipment.png');
 }
 .software__icon{
-	background-image:url('../src/software.png');
+	background-image:url('../images/software.png');
 
 }
 .itservice__icon{
-	background-image:url('../src/itservise.png');
+	background-image:url('../images/itservise.png');
 }
 
 
@@ -206,7 +201,6 @@
 	background:linear-gradient(to top, #ff9600, #ffc600);
     border-radius:30px;
 	padding:30px 15px;
-	margin-right:20px;
 	box-sizing:border-box;
 }
 
@@ -239,7 +233,7 @@
 	color:#002e79;
 }
 
-.products{
+.content{
 	float:right;
 	width:700px;
 	padding:20px;
@@ -248,114 +242,31 @@
 	border-radius:30px;
 	margin-bottom:110px;
 }
-
-.products__header{
-	margin-bottom:30px;
+.content__header{
+	margin-bottom: 30px;
 }
-
-.products__type{
-	font-size:22px;
-	color:#002e79;
-	font-weight:700;
+.content__title{
+	font-size: 22px;
+    color: #002e79;
+    font-weight: 700;
 }
-
 .product{
-	vertical-align:top;
-	width:200px;
-	margin-right:26px;
-	margin-bottom:35px;
-	display:inline-block;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 26px;
+    margin-bottom: 35px;
 }
 
-.product__wrapper{
-	position:relative;
-	text-align:center;
-	height:130px;
-	cursor:pointer;
-}
-
-.product:nth-child(3n)
-{
-	margin-right:0px;
-}
-
-.product__img{
-	max-height:100%;
-	max-width:100%;
-}
-
-.product__icon{
-	position:absolute;
-	bottom:0;
-	right:5px;
-	width:80px;
-	height:80px;
-}
-
-.icon_stock{
-	background-image:url(../src/stock.png);
-}
-
-.icon__leader{
-	background-image:url(../src/leader.png);
-}
-
-.link_special:hover{
-	color:#222;
-}
-
-.product__icon-stock{
-	position:absolute;
-    bottom:33px;
-    right:28px;
-}
-
-.product__icon__leaders{
-	position:absolute;
-	width:45px;
-    bottom:27px;
-    right:22px;
-	color:white; 
-}
-
-.product__name{
-	color:#003280;
-	text-decoration:underline;
-}
-
-.product__inner{
-	margin-top:25px;
-}
-
-.product__price{
-	margin-top: 8px;
-	float:left;
-	font-weight:700;
-	font-size:18px;
-	color:#fb9f18;
-}
-
-.product__add{
-	float:right;
-}
-
-.product__add-icon{
-	width:33px;
-	height:26px;
-}
-
-.icon_busket-add{
-	background-image:url(../src/add to basket.png);
-}
 .pagination{
-	width: 247px;
+	height: 30px;
 	margin:0 auto;
 }
 
 .pagination__item{
-	display:inline-block;
-	vertical-align:middle;
-	margin-right:15px;
+	height: 30px;
+    margin: 0 auto;
+    display: inline;
 }
 
 .pagination__item:last-child{
@@ -375,23 +286,21 @@
 	height:26px;
 }
 .icon_page-back{
-	background-image:url(../src/page-back.png);
+	background-image:url('../images/page-back.png');
 }
 
 .icon_page-forward{
-	background-image:url(../src/page-forward.png);
+	background-image:url('../images/page-forward.png');
 }
 .footer{
 	background-color:#cdcdcd;
 	box-sizing:border-box;
 	min-width:100%;
 	height:115px;
-	position:absolute;
 	left:0;
 	bottom:0;
 	padding-top:30px;
 	padding-bottom:20px;
-	height:115px;
 }
 
 .footer__comp-information{
